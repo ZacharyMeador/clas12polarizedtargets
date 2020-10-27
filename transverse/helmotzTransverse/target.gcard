@@ -57,6 +57,5 @@
 	<!--  Reference position set as target shift below -->
 	<option name="RFSTART"     value="eventVertex, 0, 0, -30.0" />
 
-	<detector name="testTarget">    <rotation x="90*deg"  y="0*deg"  z="0*deg"  />  </detector>
 	<option name="ROTATE_FIELDMAP"     value="transverseMagnet, 0*deg, 0*deg, 90*deg" />
 </gcard>
