@@ -9,4 +9,4 @@ inside the hdIce directory.
 
 ## b. hdIce with Solenoid and 5 T magnet
 
-inside the hdIce_solenoid directory.
+inside the helmholtzTransverse directory.
