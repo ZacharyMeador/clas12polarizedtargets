@@ -18,7 +18,7 @@
 	<!-- Beamline configuration: FT is used -->
 	<detector name="experiments/clas12/beamline/cadBeamlineELMO/" factory="CAD"/>
 	<detector name="experiments/clas12/beamline/vacuumLine/"  factory="CAD"/>
-	<detector name="beamline/beamline"     factory="TEXT" variation="ELMO"/>
+	<detector name="beamline/beamline"     factory="TEXT" variation="rghFTOut"/>
 
 	<!-- forward carriage -->
 	<detector name="experiments/clas12/fc/forwardCarriage" factory="TEXT" variation="TorusSymmetric"/>

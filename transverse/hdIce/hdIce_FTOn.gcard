@@ -19,7 +19,7 @@
     <detector name="experiments/clas12/ft/ft"     factory="TEXT" 	variation="FTOn"/>
 	<detector name="experiments/clas12/beamline/cadBeamlineELMO/" factory="CAD"/>
 	<detector name="experiments/clas12/beamline/vacuumLine/"  factory="CAD"/>
-	<detector name="beamline/beamline"     factory="TEXT" variation="rghFT"/>
+	<detector name="beamline/beamline"     factory="TEXT" variation="rghFTOn"/>
 
 	<!-- forward carriage -->
 	<detector name="experiments/clas12/fc/forwardCarriage" factory="TEXT" variation="TorusSymmetric"/>
