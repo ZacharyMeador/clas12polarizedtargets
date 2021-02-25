@@ -4,7 +4,7 @@
 	<!-- other variations include: lH2, lD2, ND3, "elaborate"  -->
 
 	<detector name="experiments/clas12/targets/target" factory="TEXT" variation="transverse"/>
-	<detector name="experiments/clas12/targets/transverseTargetCad//" factory="CAD"/>
+	<detector name="experiments/clas12/targets/transverseTargetCad/" factory="CAD"/>
 
 	<detector name="experiments/clas12/magnets/cad/"      factory="CAD" />
 
