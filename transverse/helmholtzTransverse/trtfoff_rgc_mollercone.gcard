@@ -9,12 +9,12 @@
 	<detector name="experiments/clas12/magnets/cad/"      factory="CAD" />
 
 	<!-- Beamline configuration: ELMO is used -->
-  <detector name="/work/clas12/users/devita/rg-c/detectors/clas12/beamline/cadBeamlineELMO/" factory="CAD"/>
-  <detector name="/work/clas12/users/devita/rg-c/detectors/clas12/beamline/vacuumLine/"  factory="CAD"/>
-  <detector name="/work/clas12/users/devita/rg-c/detectors/clas12/beamline/beamline"     factory="TEXT" variation="ELMO"/>
-  <detector name="connectUpstreamToTorusPipe">
-       <existence exist="no" />
-  </detector>
+	<detector name="/work/clas12/users/devita/rg-c/detectors/clas12/beamline/cadBeamlineELMO/" factory="CAD"/>
+	<detector name="/work/clas12/users/devita/rg-c/detectors/clas12/beamline/vacuumLine/"  factory="CAD"/>
+	<detector name="/work/clas12/users/devita/rg-c/detectors/clas12/beamline/beamline"     factory="TEXT" variation="ELMO"/>
+	<detector name="connectUpstreamToTorusPipe">
+		<existence exist="no" />
+	</detector>
 
 
   <!-- forward carriage -->
