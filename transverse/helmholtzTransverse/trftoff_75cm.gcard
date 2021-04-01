@@ -33,8 +33,8 @@
 	<option name="DISPLACE_FIELDMAP"     value="transverseNewMagnet, 0*cm, 0*cm, -75*cm" />
 
 	<!-- beam conditions -->
-	<option name="BEAM_P"   value="e-, 10.6*GeV, 2.15*deg, 0*deg"/>
-	<option name="BEAM_V"    value="(-1.5, 0, -140)cm"/>
+	<option name="BEAM_P"   value="e-, 10.6*GeV, 2.2*deg, 0*deg"/>
+	<option name="BEAM_V"    value="(-3.5, 0, -165)cm"/>
 	<option name="SPREAD_V"  value="(0.05, 0.05)cm"/>
 
 	<option name="SAVE_ALL_MOTHERS" value="0"/>
@@ -58,8 +58,8 @@
 	<!--  RF Signal needs event time window defined by LUMI_EVENT
 	      This is the 60% of NH3 and 40% of liquid-helium 10^33 luminosity 28.4mm long target -->
 	<option name="LUMI_EVENT"     value="252, 252*ns, 4*ns" />
-	<option name="LUMI_P"         value="e-, 10.6*GeV, 2.15*deg, 0*deg" />
-	<option name="LUMI_V"         value="(-1.5, 0.0, -140)cm" />
+	<option name="LUMI_P"         value="e-, 10.6*GeV, 2.2*deg, 0*deg" />
+	<option name="LUMI_V"         value="(-3.5, 0.0, -165)cm" />
 	<option name="LUMI_SPREAD_V"  value="(0.05, 0.05)cm" />
 	<option name="RFSETUP"        value="0.499, 40, 20" />
 
