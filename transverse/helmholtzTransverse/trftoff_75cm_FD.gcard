@@ -28,6 +28,10 @@
 		<existence exist="no" />
 	</detector>
 
+	
+	
+	
+	
 	<!-- forward carriage -->
 	<detector name="experiments/clas12/fc/forwardCarriage" factory="TEXT" variation="TorusSymmetric"/>
 	<detector name="experiments/clas12/dc/dc"              factory="TEXT" variation="default"/>
@@ -38,18 +42,12 @@
 	<detector name="experiments/clas12/ltcc/cad_cone/"     factory="CAD"/>
 	<detector name="experiments/clas12/ltcc/cad/"          factory="CAD"/>
    
-	<!-- Just DC in forward carriage. This is specific to Region1 DC occupancy only.
-		  Add all other detectors if we're interested in the other regions as well  -->
-	<detector name="experiments/clas12/dc/dc"              factory="TEXT" variation="default"/>
-
 	<!-- you can scale the fields here. Remember torus -1 means e- INBENDING  -->
 	<option name="SCALE_FIELD" value="TorusSymmetric, -1"/>
 	<option name="SCALE_FIELD" value="transverseNewMagnet, 1.0"/>
 	
 	<!-- hall field  -->
 	<option name="HALL_FIELD"  value="transverseNewMagnet"/>
-	<option name="SCALE_FIELD" value="transverseNewMagnet, 1.0"/>
-	<option name="ROTATE_FIELDMAP"   value="transverseNewMagnet, 0*deg, 0*deg, 0*deg" />
 	<option name="DISPLACE_FIELDMAP"     value="transverseNewMagnet, 0*cm, 0*cm, -75*cm" />
 	<option name="ROTATE_FIELDMAP"   value="transverseNewMagnet, 0*deg, 0*deg, 0*deg" />
 	
@@ -61,8 +59,6 @@
 
 
 
-
-	
 
 	<option name="SAVE_ALL_MOTHERS" value="0"/>
 	<option name="RECORD_OPTICALPHOTONS"   value="0"/>
@@ -90,8 +86,7 @@
 	<option name="BEAM_V"    value="(-3.5, 0, -165)cm"/>
 	<option name="SPREAD_V"  value="(0.05, 0.05)cm"/>
 
-	<!--  RF Signal needs event time window defined by LUMI_EVENT
-	      This is the 60% of NH3 and 40% of liquid-helium 10^33 luminosity 28.4mm long target -->
+	<!--  RF Signal needs event time window defined by LUMI_EVENT -->
 	<option name="LUMI_EVENT"     value="252, 252*ns, 4*ns" />
 	<option name="LUMI_P"         value="e-, 10.6*GeV, 2.15*deg, 0*deg" />
 	<option name="LUMI_V"         value="(-3.5, 0.0, -165)cm" />
@@ -99,7 +94,7 @@
 	<option name="RFSETUP"        value="0.499, 40, 20" />
 
 	<!--  Reference position set as target shift below -->
-	<option name="RFSTART"     value="eventVertex, 0, 0, -30.0" />
+	<option name="RFSTART"     value="eventVertex, 0, 0, -75.0" />
 
 
 	<option name="PRODUCTIONCUTFORVOLUMES" value="innerShieldAndFlange, outerFlange, outerMount, nut1, nut2, nut3, nut4, nut5, nut6, nut7, nut8, nut9, taggerInnerShield,  main-cone, main-cone, adjuster1, adjuster2, adjuster3, DSShieldFrontLead, DSShieldBackLead, DSShieldInnerAss, DSShieldBackAss, DSShieldFrontAss, DSShieldBackCover, DSShieldFrontCover, DSShieldFlangeAttachment, DSShieldFlange,  20" />
