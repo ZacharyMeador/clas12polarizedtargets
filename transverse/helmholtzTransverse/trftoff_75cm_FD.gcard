@@ -1,10 +1,8 @@
 <gcard>
 
 	<!-- target. Notice variation give the target type. Can be: lH2, lD2, ND3 -->
-	<!-- shift target and magnet -75cm -->
-	<detector name="/volatile/clas12/zachjj/clas12Tags/5.0/experiments/clas12/shift-75cm/targets/target" factory="TEXT" variation="transverse"/>
-	<detector name="/volatile/clas12/zachjj/clas12Tags/5.0/experiments/clas12/shift-75cm/targets/transverseTargetCad/" factory="CAD"/>
-
+	<detector name="experiments/clas12/targets/transverseTargetCad/" factory="CAD"/>
+	<detector name="experiments/clas12/targets/target" factory="TEXT" variation="transverse"/>
 	
 
 
