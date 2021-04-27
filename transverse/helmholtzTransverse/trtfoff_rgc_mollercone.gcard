@@ -40,11 +40,9 @@
 	<option name="SCALE_FIELD" value="transverseNewMagnet, 1.0"/>
 	
 	<!-- hall field  -->
-	<option name="HALL_FIELD"  		value="transverseNewMagnet"/>
-	<option name="SCALE_FIELD" 		value="transverseNewMagnet, 1.0"/>
-	<option name="ROTATE_FIELDMAP"   	value="transverseNewMagnet, 0*deg, 0*deg, 0*deg" />
-	<option name="DISPLACE_FIELDMAP"     	value="transverseNewMagnet, 0*cm, 0*cm, 0*cm" />
-	<option name="ROTATE_FIELDMAP"   	value="transverseNewMagnet, 0*deg, 0*deg, 0*deg" />
+	<option name="HALL_FIELD"  	 value="transverseNewMagnet"/>
+	<option name="DISPLACE_FIELDMAP" value="transverseNewMagnet, 0*cm, 0*cm, 0*cm" />
+	<option name="ROTATE_FIELDMAP"   value="transverseNewMagnet, 0*deg, 0*deg, 0*deg" />
 	
 	
 	<!-- fields, precise mode -->
