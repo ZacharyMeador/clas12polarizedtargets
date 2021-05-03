@@ -1,8 +1,8 @@
 <gcard>
 
 	<!-- target. Notice variation give the target type. Can be: lH2, lD2, ND3 -->
-	<detector name="experiments/clas12/targets/transverseTargetCad/" factory="CAD"/>
-	<detector name="experiments/clas12/targets/target" factory="TEXT" variation="transverse"/>
+	<detector name="/volatile/clas12/zachjj/clas12Tags/4.4.2/experiments/clas12/transverseShift/targets/transverseTargetCad" factory="CAD"/>
+	<detector name="/volatile/clas12/zachjj/clas12Tags/4.4.2/experiments/clas12/transverseShift/targets" factory="TEXT" variation="transverse"/>
 	
 
 
