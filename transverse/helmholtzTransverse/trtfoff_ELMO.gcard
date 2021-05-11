@@ -27,9 +27,6 @@
 	<detector name="connectUpstreamToTorusPipe">
 		<existence exist="no" />
 	</detector>
-	<!-- <detector name="ElmoTungstenTip"> -->
-	<!--	<existence exist="no" /> -->
-	<!-- </detector> -->
 
 	<!-- forward carriage -->
 	<detector name="experiments/clas12/fc/forwardCarriage" factory="TEXT" variation="TorusSymmetric"/>
