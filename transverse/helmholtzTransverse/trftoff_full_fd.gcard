@@ -37,7 +37,7 @@
 	<detector name="experiments/clas12/ltcc/ltcc"          factory="TEXT" variation="rgb_spring2019"/>
 	<detector name="experiments/clas12/ltcc/cad_cone/"     factory="CAD"/>
 	<detector name="experiments/clas12/ltcc/cad/"          factory="CAD"/>
-	<detector name="experiments/clas12/htcc/htcc" factory"TEXT" variation="original"/>
+	<detector name="experiments/clas12/htcc/htcc"          factory="TEXT" variation="original"/>
 
 	
 	
