@@ -1,7 +1,7 @@
 <gcard>
 
 	<!-- target. Notice variation give the target type. Can be: lH2, lD2, ND3 -->
-	<detector name="experiments/clas12/targets/transverseTargetCad/" factory="CAD"/>
+	<detector name="experiments/clas12/fluxDets/fluxDets" factory="TEXT" variation="beamline"/>
 	<detector name="experiments/clas12/targets/target" factory="TEXT" variation="transverse"/>
 	
 
@@ -73,7 +73,7 @@
 
 
 
-	<option name="INTEGRATEDRAW" value="dc"/>	
+	<option name="INTEGRATEDRAW" value="flux"/>	
 	
 	<!-- beam conditions -->
 	<option name="BEAM_P"    value="e-, 10.6*GeV, 2.15*deg, 0*deg"/>
