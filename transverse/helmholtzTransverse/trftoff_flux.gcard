@@ -45,7 +45,7 @@
 
 
 
-	<option name="INTEGRATEDRAW" value="flux”/>	
+	<option name="INTEGRATEDRAW" value="flux"/>	
 	
 	<!-- beam conditions -->
 	<option name="BEAM_P"    value="e-, 10.6*GeV, 2.15*deg, 0*deg"/>
