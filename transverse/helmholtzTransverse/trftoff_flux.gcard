@@ -2,38 +2,9 @@
 
 	<!-- target. Notice variation give the target type. Can be: lH2, lD2, ND3 -->
 	<detector name="experiments/clas12/fluxDets/fluxDets" factory="TEXT" variation="beamline"/>
-	<detector name="experiments/clas12/targets/target" factory="TEXT" variation="transverse"/>
-	
+	<detector name="experiments/clas12/targets/target"    factory="TEXT" variation="transverse"/>
 
-
-
-
-
-
-
-
-
-
-
-	
-
-	
-	<detector name="experiments/clas12/magnets/cad/"     factory="CAD" />
-
-	<!-- Beamline configuration: ELMO is used -->
-	<detector name="/experiments/clas12/beamline/cadBeamlineELMO/" factory="CAD"/>
-	<detector name="/experiments/clas12/beamline/vacuumLine/"  factory="CAD"/>
-	<detector name="/experiments/clas12/beamline/beamline"     factory="TEXT" variation="ELMO"/>
-	<detector name="connectUpstreamToTorusPipe">
-		<existence exist="no" />
-	</detector>
-
-	<!-- forward carriage -->
-	<detector name="experiments/clas12/fc/forwardCarriage" factory="TEXT" variation="TorusSymmetric"/>
-	<detector name="experiments/clas12/dc/dc"              factory="TEXT" variation="default"/>
-	
-
-	
+		
 
 	<!-- you can scale the fields here. Remember torus -1 means e- INBENDING  -->
 	<option name="SCALE_FIELD" value="TorusSymmetric, -1"/>
@@ -73,7 +44,7 @@
 
 
 
-	<option name="INTEGRATEDRAW" value="flux"/>	
+	<option name="INTEGRATEDRAW" value="flux”/>	
 	
 	<!-- beam conditions -->
 	<option name="BEAM_P"    value="e-, 10.6*GeV, 2.15*deg, 0*deg"/>
