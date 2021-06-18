@@ -27,7 +27,7 @@
 	<detector name="connectUpstreamToTorusPipe">
 		<existence exist="no" />
 	</detector>
-  <detector name="ElmoTungstenTip">
+  	<detector name="ElmoTungstenTip">
 		<existence exist="no" />
 	</detector>
 
