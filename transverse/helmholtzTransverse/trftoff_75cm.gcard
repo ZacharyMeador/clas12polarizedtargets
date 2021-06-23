@@ -51,6 +51,7 @@
 	<!-- fields, precise mode -->
 	<option name="FIELD_PROPERTIES" value="TorusSymmetric,      2*mm, G4ClassicalRK4, linear"/>
 	<option name="FIELD_PROPERTIES" value="transverseNewMagnet, 1*mm, G4ClassicalRK4, linear"/>
+	<option name="MAX_FIELD_STEP"   value="10" />
 
 
 
