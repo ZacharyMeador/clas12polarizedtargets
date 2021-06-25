@@ -2,6 +2,7 @@
 
 	<!-- target. Notice variation give the target type. Can be: lH2, lD2, ND3 -->
 	<detector name="experiments/clas12/fluxDets/fluxDets" factory="TEXT" variation="beamline"/>
+	<detector name="/experiments/clas12/beamline/beamline2"    factory="TEXT" variation="TransverseUpstreamBeampipe"/>
 	<detector name="experiments/clas12/targets/target"    factory="TEXT" variation="transverse"/>
 
 		
