@@ -24,6 +24,7 @@
 	<detector name="/experiments/clas12/beamline/cadBeamlineELMO/" factory="CAD"/>
 	<detector name="/experiments/clas12/beamline/vacuumLine/"  factory="CAD"/>
 	<detector name="/experiments/clas12/beamline/beamline"     factory="TEXT" variation="ELMO"/>
+	<detector name="/experiments/clas12/beamline/beamline2"    factory="TEXT" variation="TransverseUpstreamBeampipe"/>
 	<detector name="connectUpstreamToTorusPipe">
 		<existence exist="no" />
 	</detector>
